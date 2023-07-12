@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.application'
-    //id 'kotlin-kapt'
-    id 'com.google.dagger.hilt.android'
+
 }
 
 android {
@@ -33,9 +32,7 @@ android {
         dataBinding true
     }
 
-//    kapt {
-//        correctErrorTypes true
-//    }
+
 }
 
 dependencies {
@@ -54,9 +51,6 @@ dependencies {
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
 
-    //hilt
-//    implementation "com.google.dagger:hilt-android:$hilt_version"
-//    annotationProcessor "com.google.dagger:hilt-compiler:$hilt_version"
 
 
 }
