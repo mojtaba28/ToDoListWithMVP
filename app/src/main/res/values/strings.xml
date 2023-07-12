@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ToDoListMVP</string>
+    <string name="search_task">Search Task...</string>
+    <string name="delete_all">Delete All</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="high">High</string>
+    <string name="normal">Normal</string>
+    <string name="low">Low</string>
+    <string name="add_task_for_today">Add Task For Today</string>
+    <string name="save_changes">Save Changes</string>
+</resources>
